@@ -5,11 +5,6 @@
 /// merge tests: these tests currently also touch non-compact currency
 /// formatting.
 
-/// We use @Tags rather than @TestOn to be able to specify something that can be
-/// ignored when using a build system that can't read dart_test.yaml. This
-/// depends on https://github.com/tc39/proposal-unified-intl-numberformat.
-@Tags(const ['unifiedNumberFormat'])
-
 import 'package:intl/intl.dart' as intl;
 import 'package:js/js_util.dart' as js;
 import 'package:test/test.dart';
